@@ -1,0 +1,167 @@
+
+.homeTable{
+  justify-content: flex-start;
+}
+.menuItems{
+  color:white;
+  flex-direction: row-reverse  ;
+  justify-content: space-between;
+}
+.NavigationBar{
+  align-items: flex-end;
+  justify-content: center;
+  background-color: rgb(215, 213, 222);
+}
+.navigationBar {
+  margin-bottom: 20px;
+  justify-content: flex-end;
+  align-items:center;
+  width: 100%;
+
+}
+.account{
+  justify-content: flex-end;
+}
+.registrationForm{
+  height:100vh;
+  padding-top:10;
+  justify-content: center;
+}
+
+
+.basicSearch{
+  align-items: center;
+}
+.basicTable{
+  justify-content: left;
+}
+.basicYearLabel{
+  justify-content: left;
+}
+
+.App{
+  background-color: orange;
+  height: 100%;
+  width:100%;
+}
+:root{
+  height: 100%;
+  background-color: orange;
+}
+
+.heroTitle{
+  display: flex;
+  
+  padding-left: 50px;
+  padding-top: 10px;
+
+}
+.heroSubtitle{
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-top: 50px;
+
+ 
+  font-size: 40;
+
+  ;
+
+}
+
+.HeroNavContent{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.HeroLinkLogin{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.HeroLinkRegister{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.HeroFooterContent{
+  display:flex;
+  position:sticky;
+  padding-top: 30px;
+ 
+}
+.HeroWrapper{
+  display: grid;
+  background-image: url(./pic.jpg) ;
+  background-size:cover;
+  background-repeat:no-repeat; 
+  height: 100vh;
+  width:100vw;
+  ;
+}
+.container1{
+  display: grid;
+  grid-template-rows: 30% 40% 30%;
+  height:100vh;
+  width:100vw;
+}
+.HeroHeader{
+  display:flex;
+  justify-content: space-evenly;
+  height: fit-content;
+  background-color: navajowhite;
+}
+.HeroBody{
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-top: 50px;
+  width:100%;
+ 
+  
+  background-image:  url(./pic.jpg) ;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+height: 500;
+  font-size: 40;
+
+  
+}
+.HeroFooterContent{
+  display:flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height:fit-content;
+}
+.NavBar{
+  display: flex;
+  justify-content: center;
+}
+.Homeheading{
+display: flex;
+
+}
+.HomeTitle{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 25px;
+}
+.homeTable{
+  display:flex;
+  align-items: center;
+ 
+}
+.HomeBarGraph{
+  display:flex; 
+  align-items: center;
+  justify-content: center;
+  ;
+}
+.html{
+  height:100%;
+  background-color:orange;
+}
